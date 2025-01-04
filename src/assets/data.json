@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "image": "https://i.ibb.co.com/Pg2DHsg/Java-Script-logo.png"
+    },
+    {
+      "id": 2,
+      "name": "Tailwind CSS",
+      "image": "https://i.ibb.co.com/hCk9q3h/tailwind.png"
+    },
+    {
+      "id": 3,
+      "name": "React",
+      "image": "https://i.ibb.co.com/Cz4n3Qq/reactlogo.png"
+    },
+    {
+      "id": 4,
+      "name": "MongoDB",
+      "image": "https://example.com/images/mongodb.png"
+    },
+    {
+      "id": 5,
+      "name": "Express",
+      "image": "https://example.com/images/express.png"
+    },
+    {
+      "id": 6,
+      "name": "HTML & CSS",
+      "image": "https://example.com/images/html-css.png"
+    }
+  ]
+  
