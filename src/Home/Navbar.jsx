@@ -18,7 +18,7 @@ const Navbar = () => {
       <li>
         <button
           onClick={() => handleNavigation("/", "home")}
-          className=" hover:text-blue-700 transition"
+          className=" hover:text-blue-700 transition font-fn"
         >
           Home
         </button>
@@ -26,7 +26,7 @@ const Navbar = () => {
       <li>
         <button
           onClick={() => handleNavigation("/about", "about")}
-          className=" hover:text-blue-700 transition"
+          className=" hover:text-blue-700 transition font-fn"
         >
           About
         </button>
@@ -34,7 +34,7 @@ const Navbar = () => {
       <li>
         <button
           onClick={() => handleNavigation("/projects", "projects")}
-          className=" hover:text-blue-700 transition"
+          className=" hover:text-blue-700 transition font-fn"
         >
           Projects
         </button>
@@ -43,7 +43,7 @@ const Navbar = () => {
       <li>
         <button
           onClick={() => handleNavigation("/contact", "contact")}
-          className=" hover:text-blue-700 transition"
+          className=" hover:text-blue-700 transition font-fn"
         >
           Contact
         </button>
@@ -77,7 +77,7 @@ const Navbar = () => {
             {NavMenu}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl text-white">My Details</a>
+        <a className="btn btn-ghost text-xl text-white font-fn">My Details</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal text-white text-xl gap-4 px-1">

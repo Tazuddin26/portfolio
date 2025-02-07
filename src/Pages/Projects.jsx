@@ -14,7 +14,7 @@ import {
   SiMongodb,
   SiTailwindcss,
 } from "react-icons/si";
-import { FaNodeJs, FaReact, FaReacteurope } from "react-icons/fa";
+import { FaGithub, FaNodeJs, FaReact, FaReacteurope } from "react-icons/fa";
 
 const Projects = () => {
   const checkDouble = (
@@ -91,12 +91,24 @@ const Projects = () => {
               <FaNodeJs size={28} className=" text-green-400" />
             </div>
           </ul>
-          <Link
-            to="https://assignment-12-dead3.web.app/"
-            className="px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-          >
-            <button className="mt-10"> View More</button>
-          </Link>
+
+          <div className="flex items-center gap-4 mt-10">
+            <Link
+              to="https://assignment-12-dead3.web.app/"
+              className=" 
+             "
+            >
+              <button className=" px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none">
+                {" "}
+                View More
+              </button>
+            </Link>
+            <Link to="https://github.com/Tazuddin26/Apartment-client">
+              <button className="btn px-6 py-1 border ">
+                <FaGithub size={30} className="" />
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
       <section className="py-6 flex flex-col ">
@@ -163,13 +175,23 @@ const Projects = () => {
               <FaNodeJs size={28} className=" text-green-400" />
             </div>
           </ul>
-
-          <Link
-            to="https://assignment-11-client-sid-68c66.web.app/"
-            className="px-6 py-3 font-medium tracking-wide ml-4 mt-4 text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-          >
-            <button className="mt-10">View More</button>
-          </Link>
+          <div className="flex items-center gap-4 mt-10">
+            <Link
+              to="https://assignment-11-client-sid-68c66.web.app/"
+              className=" 
+             "
+            >
+              <button className=" px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none">
+                {" "}
+                View More
+              </button>
+            </Link>
+            <Link to="https://github.com/Tazuddin26/assignment-11-client">
+              <button className="btn px-6 py-1 border ">
+                <FaGithub size={30} className="" />
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
       <section className="py-6 flex lg:flex-row-reverse flex-col">
@@ -232,13 +254,23 @@ const Projects = () => {
               {/* <FaNodeJs size={28} className=" text-green-400" /> */}
             </div>
           </ul>
-
-          <Link
-            to="https://famous-hamster-adde34.netlify.app/"
-            className="px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring "
-          >
-            <button className="mt-10">View More</button>
-          </Link>
+          <div className="flex items-center gap-4 mt-10">
+            <Link
+              to="https://famous-hamster-adde34.netlify.app/"
+              className=" 
+             "
+            >
+              <button className=" px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none">
+                {" "}
+                View More
+              </button>
+            </Link>
+            <Link to="https://github.com/Tazuddin26/assignment-09">
+              <button className="btn px-6 py-1 border ">
+                <FaGithub size={30} className="" />
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
     </div>

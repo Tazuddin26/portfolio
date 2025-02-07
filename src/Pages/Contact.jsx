@@ -88,9 +88,9 @@ const Contact = () => {
             </p>
           )}
         </form>
-        <div className="ml-5 ">
-          <p className="text-white text-2xl font-fn">Contact Information</p>
-          <hr className="border-green-600 " />
+        <div className="lg:ml-5 ">
+          <p className="text-white text-2xl font-fn text-center  ">Contact Information</p>
+          <hr className="border-green-600  " />
           <div className="space-y-3 mt-5">
             <p className="text-white flex items-center font-fn text-xl gap-2">
               <AiOutlineMail size={28} className="text-blue-500" />{" "}
