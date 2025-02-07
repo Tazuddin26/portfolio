@@ -11,47 +11,47 @@ const Navbar = () => {
       if (section) {
         section.scrollIntoView({ behavior: "smooth" });
       }
-    }, 100); 
+    }, 100);
   };
   const NavMenu = (
     <>
       <li>
-      <button
-            onClick={() => handleNavigation("/", "home")}
-            className=" hover:text-blue-700 transition"
-          >
-            Home
-          </button>
+        <button
+          onClick={() => handleNavigation("/", "home")}
+          className=" hover:text-blue-700 transition"
+        >
+          Home
+        </button>
       </li>
       <li>
-      <button
-            onClick={() => handleNavigation("/about", "about")}
-            className=" hover:text-blue-700 transition"
-          >
-            About
-          </button>
+        <button
+          onClick={() => handleNavigation("/about", "about")}
+          className=" hover:text-blue-700 transition"
+        >
+          About
+        </button>
       </li>
       <li>
-      <button
-            onClick={() => handleNavigation("/projects", "projects")}
-            className=" hover:text-blue-700 transition"
-          >
-            Projects
-          </button>
+        <button
+          onClick={() => handleNavigation("/projects", "projects")}
+          className=" hover:text-blue-700 transition"
+        >
+          Projects
+        </button>
       </li>
 
       <li>
-      <button
-            onClick={() => handleNavigation("/contact", "contact")}
-            className=" hover:text-blue-700 transition"
-          >
-            Contact
-          </button>
+        <button
+          onClick={() => handleNavigation("/contact", "contact")}
+          className=" hover:text-blue-700 transition"
+        >
+          Contact
+        </button>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-zinc-800 shadow-gray-950 shadow-xl">
+    <div className="navbar  shadow-gray-200 shadow-lg bg-white dark:bg-gray-700">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn  lg:hidden">
@@ -85,12 +85,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link to='https://drive.google.com/file/d/1J40u3duOBnST8IOx0o5Nyszxpd0v2qIi/view?usp=drive_link'>
-        <button  className="btn bg-green-800 border-0 text-white hover:text-black">
-          Download CV
-        </button>
+        <Link to="https://drive.google.com/file/d/1J40u3duOBnST8IOx0o5Nyszxpd0v2qIi/view?usp=drive_link">
+          <button
+            title="right arrow"
+            className="p-2 px-6 text-white transition-colors duration-300 border rounded-full rtl:-scale-x-100 md:mx-6 hover:bg-green-600"
+          >
+            Resume
+          </button>
         </Link>
-      
       </div>
     </div>
   );
