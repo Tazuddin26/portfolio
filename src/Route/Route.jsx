@@ -5,6 +5,9 @@ import Projects from "../Pages/Projects";
 import About from "../Home/About";
 import Root from "./Root";
 import Contact from "../Pages/Contact";
+import DetailsOne from "../Pages/details/DetailsOne";
+import DetailsTwo from "../Pages/details/DetailsTwo";
+import DetailsThree from "../Pages/details/DetailsThree";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element:<Contact/>
+      },
+      {
+        path:'/detailsOne',
+        element:<DetailsOne/>
+      },
+      {
+        path:'/detailsTwo',
+        element:<DetailsTwo/>
+      },
+      {
+        path:'/detailsThree',
+        element:<DetailsThree/>
       }
     ],
   },

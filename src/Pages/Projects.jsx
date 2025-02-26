@@ -15,8 +15,14 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 import { FaGithub, FaNodeJs, FaReact, FaReacteurope } from "react-icons/fa";
+// import { useState } from "react";
 
 const Projects = () => {
+  // const [isOpen, setIsOpen] = useState(false);
+  // const handleDetails = () => {
+  //   setIsOpen(true);
+  // };
+
   const checkDouble = (
     <RiCheckDoubleFill size={24} className="text-green-600" />
   );
@@ -93,6 +99,11 @@ const Projects = () => {
           </ul>
 
           <div className="flex items-center gap-4 mt-10">
+          <Link to="/detailsThree">
+              <button className=" px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none">
+                Details
+              </button>
+            </Link>
             <Link
               to="https://assignment-12-dead3.web.app/"
               className=" 
@@ -176,6 +187,11 @@ const Projects = () => {
             </div>
           </ul>
           <div className="flex items-center gap-4 mt-10">
+          <Link to="/detailsTwo">
+              <button className=" px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none">
+                Details
+              </button>
+            </Link>
             <Link
               to="https://assignment-11-client-sid-68c66.web.app/"
               className=" 
@@ -186,6 +202,7 @@ const Projects = () => {
                 View More
               </button>
             </Link>
+           
             <Link to="https://github.com/Tazuddin26/assignment-11-client">
               <button className="btn px-6 py-1 border ">
                 <FaGithub size={30} className="" />
@@ -246,15 +263,14 @@ const Projects = () => {
               <SiJavascript size={28} className=" text-yellow-400 rounded-xl" />
               <FaReacteurope size={28} className=" text-sky-600" />
               <SiTailwindcss size={28} className=" text-sky-600" />
-              {/* <SiMongodb size={28} className=" text-green-600" />
-              <SiExpress
-                size={28}
-                className="border rounded-full bg-gray-500 text-white"
-              /> */}
-              {/* <FaNodeJs size={28} className=" text-green-400" /> */}
             </div>
           </ul>
           <div className="flex items-center gap-4 mt-10">
+            <Link to="/detailsOne">
+              <button className=" px-6 py-3 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none">
+                Details
+              </button>
+            </Link>
             <Link
               to="https://famous-hamster-adde34.netlify.app/"
               className=" 
@@ -273,6 +289,11 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      {/* {isOpen &&(
+      <Details isOpen={isOpen} setIsOpen={setIsOpen}/>
+      )
+      
+      } */}
     </div>
   );
 };

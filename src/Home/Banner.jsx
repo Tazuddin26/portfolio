@@ -45,10 +45,11 @@ const Banner = () => {
                         <FaFacebook size={30} className="text-blue-600" />
                       </button>
                     </Link>
-
-                    <button className="btn join-item ">
-                      <FaLinkedin size={30} className="text-blue-800" />
-                    </button>
+                    <Link to="https://www.linkedin.com/in/tazuddin-ahmad-4a5673270/">
+                      <button className="btn join-item ">
+                        <FaLinkedin size={30} className="text-blue-800" />
+                      </button>
+                    </Link>
                   </div>
                   <div className="flex items-center justify-between  md:justify-start">
                     <Link to="https://drive.google.com/file/d/1J40u3duOBnST8IOx0o5Nyszxpd0v2qIi/view?usp=drive_link">
